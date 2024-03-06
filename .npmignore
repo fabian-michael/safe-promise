@@ -1,4 +1,5 @@
 node_modules
+src
 .gitignore
 .swcrc
 pnpm-lock.yaml
