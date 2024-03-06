@@ -1,0 +1,5 @@
+node_modules
+.gitignore
+.swcrc
+pnpm-lock.yaml
+tsconfig.json

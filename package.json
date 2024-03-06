@@ -1,0 +1,33 @@
+{
+  "name": "safe-promise",
+  "version": "1.0.0",
+  "description": "A utility to wrap asynchronous JavaScript functions for improving error handling, setting a timeout and logging errors automatically.",
+  "main": "dist/index.js",
+  "types": "./types",
+  "module": "true",
+  "scripts": {
+    "build": "rm -rf ./dist ./types && tsc && swc ./src -d ./dist --strip-leading-paths"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabian-michael/safe-promise.git"
+  },
+  "keywords": [
+    "promise",
+    "promises",
+    "error",
+    "handling",
+    "timeout"
+  ],
+  "author": "Fabian Michael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabian-michael/safe-promise/issues"
+  },
+  "homepage": "https://github.com/fabian-michael/safe-promise#readme",
+  "devDependencies": {
+    "@swc/cli": "^0.3.10",
+    "@swc/core": "^1.4.5",
+    "typescript": "^5.4.2"
+  }
+}
